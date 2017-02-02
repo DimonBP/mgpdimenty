@@ -66,3 +66,6 @@ DirectoryIndex app.php
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>
+
+RewriteEngine on
+RewriteRule /advertisement $1

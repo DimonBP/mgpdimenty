@@ -22,20 +22,20 @@ class __TwigTemplate_33eaf073c58654b2f19b6d9d5e1b023139202d2a1b9b6330bb07e6c0c0b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c3242b5833e388739e72d66fa93476ac43207a264ae0a04082eacb357e3f03a8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c3242b5833e388739e72d66fa93476ac43207a264ae0a04082eacb357e3f03a8->enter($__internal_c3242b5833e388739e72d66fa93476ac43207a264ae0a04082eacb357e3f03a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/table.html.twig"));
+        $__internal_93c0d734748195cb89076f2a0fa4eed3d29244e0daa52de1ad868767a2c2f4d5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_93c0d734748195cb89076f2a0fa4eed3d29244e0daa52de1ad868767a2c2f4d5->enter($__internal_93c0d734748195cb89076f2a0fa4eed3d29244e0daa52de1ad868767a2c2f4d5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/table.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_c3242b5833e388739e72d66fa93476ac43207a264ae0a04082eacb357e3f03a8->leave($__internal_c3242b5833e388739e72d66fa93476ac43207a264ae0a04082eacb357e3f03a8_prof);
+        $__internal_93c0d734748195cb89076f2a0fa4eed3d29244e0daa52de1ad868767a2c2f4d5->leave($__internal_93c0d734748195cb89076f2a0fa4eed3d29244e0daa52de1ad868767a2c2f4d5_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_dfe483d2d22a2d9e6a7dddc2f4f87d88e59f8dfba6fb791e16372e16a7f6413f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dfe483d2d22a2d9e6a7dddc2f4f87d88e59f8dfba6fb791e16372e16a7f6413f->enter($__internal_dfe483d2d22a2d9e6a7dddc2f4f87d88e59f8dfba6fb791e16372e16a7f6413f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_48c79d4210a1b9efc473a729ac5e605885a342858ffa131201447b6fffbd5a8d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_48c79d4210a1b9efc473a729ac5e605885a342858ffa131201447b6fffbd5a8d->enter($__internal_48c79d4210a1b9efc473a729ac5e605885a342858ffa131201447b6fffbd5a8d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "\t\t\t<div id=\"page-wrapper\">
@@ -73,7 +73,7 @@ class __TwigTemplate_33eaf073c58654b2f19b6d9d5e1b023139202d2a1b9b6330bb07e6c0c0b
             echo twig_escape_filter($this->env, $this->getAttribute($context["table_row"], "text", array()), "html", null, true);
             echo "</td>
 \t\t\t\t\t\t\t\t\t\t\t<td>
-\t\t\t\t\t\t\t\t\t\t\t\t<a href='/updatereq/";
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='/advertisement/updatereq/";
             // line 25
             echo twig_escape_filter($this->env, $this->getAttribute($context["table_row"], "id", array()), "html", null, true);
             echo "'><i title='Mainīt' class='fa fa-file-text-o fa-fw'></i></a>
@@ -95,15 +95,15 @@ class __TwigTemplate_33eaf073c58654b2f19b6d9d5e1b023139202d2a1b9b6330bb07e6c0c0b
 \t\t\t</div>
 ";
         
-        $__internal_dfe483d2d22a2d9e6a7dddc2f4f87d88e59f8dfba6fb791e16372e16a7f6413f->leave($__internal_dfe483d2d22a2d9e6a7dddc2f4f87d88e59f8dfba6fb791e16372e16a7f6413f_prof);
+        $__internal_48c79d4210a1b9efc473a729ac5e605885a342858ffa131201447b6fffbd5a8d->leave($__internal_48c79d4210a1b9efc473a729ac5e605885a342858ffa131201447b6fffbd5a8d_prof);
 
     }
 
     // line 39
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_919cb98c701cde9c3553a50eba7115a6765112723e96c9495c97327d51032bad = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_919cb98c701cde9c3553a50eba7115a6765112723e96c9495c97327d51032bad->enter($__internal_919cb98c701cde9c3553a50eba7115a6765112723e96c9495c97327d51032bad_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_b058bfba6bb6341fcb45ea580695f7d9bcaa13bfd5730398e3d84da0b6707751 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b058bfba6bb6341fcb45ea580695f7d9bcaa13bfd5730398e3d84da0b6707751->enter($__internal_b058bfba6bb6341fcb45ea580695f7d9bcaa13bfd5730398e3d84da0b6707751_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 40
         echo "<style>
@@ -111,7 +111,7 @@ class __TwigTemplate_33eaf073c58654b2f19b6d9d5e1b023139202d2a1b9b6330bb07e6c0c0b
 </style>
 ";
         
-        $__internal_919cb98c701cde9c3553a50eba7115a6765112723e96c9495c97327d51032bad->leave($__internal_919cb98c701cde9c3553a50eba7115a6765112723e96c9495c97327d51032bad_prof);
+        $__internal_b058bfba6bb6341fcb45ea580695f7d9bcaa13bfd5730398e3d84da0b6707751->leave($__internal_b058bfba6bb6341fcb45ea580695f7d9bcaa13bfd5730398e3d84da0b6707751_prof);
 
     }
 
@@ -164,7 +164,7 @@ class __TwigTemplate_33eaf073c58654b2f19b6d9d5e1b023139202d2a1b9b6330bb07e6c0c0b
 \t\t\t\t\t\t\t\t\t\t\t<td>{{ table_row.date|date('Y-m-d') }}</td>
 \t\t\t\t\t\t\t\t\t\t\t<td>{{ table_row.text }}</td>
 \t\t\t\t\t\t\t\t\t\t\t<td>
-\t\t\t\t\t\t\t\t\t\t\t\t<a href='/updatereq/{{ table_row.id }}'><i title='Mainīt' class='fa fa-file-text-o fa-fw'></i></a>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='/advertisement/updatereq/{{ table_row.id }}'><i title='Mainīt' class='fa fa-file-text-o fa-fw'></i></a>
 \t\t\t\t\t\t\t\t\t\t\t</td>
 \t\t\t\t\t\t\t\t\t\t</tr>
 \t\t\t\t\t\t\t\t\t\t
