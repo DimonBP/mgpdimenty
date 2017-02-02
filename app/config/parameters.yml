@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: admin_mgp
+    database_user: admin_mgp
+    database_password: dimonbp
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: faa6f83194b4add9ab58c634ecbff1e5e625dcb7
