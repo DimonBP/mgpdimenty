@@ -8,9 +8,8 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use AppBundle\Entity\Product2;
 use Symfony\Component\Validator\Constraints\DateTime;
-use Symfony\Component\Form\Extension\Core\Type\TextType;
-use Symfony\Component\Form\Extension\Core\Type\DateType;
-use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+
+use AppBundle\Form\TableProduct2Form;
 
 class DefaultController extends Controller
 {
@@ -45,12 +44,8 @@ class DefaultController extends Controller
 		$product->setDate(new \DateTime('now'));
 		$product->setText('Pievienot tekstu');
 		
-		$form = $this->createFormBuilder($product)
-            ->add('text', TextType::class)
-            ->add('date', DateType::class)
-            ->add('save', SubmitType::class, array('label' => 'Pievienot ierakstu'))
-            ->getForm();
-			
+		$form = $this->createForm(TableProduct2Form::class, $product);
+		
 		$form->handleRequest($request);
  
 		if ($form->isSubmitted() && $form->isValid())
@@ -76,11 +71,7 @@ class DefaultController extends Controller
 		$repository = $this->getDoctrine()->getRepository('AppBundle:Product2');
 		$product = $repository->find($page);
      
-		$form = $this->createFormBuilder($product)
-            ->add('text', TextType::class)
-            ->add('date', DateType::class)
-            ->add('save', SubmitType::class, array('label' => 'Pievienot ierakstu'))
-            ->getForm();
+		$form = $this->createForm(TableProduct2Form::class, $product);
 			
 		$form->handleRequest($request);
 		
